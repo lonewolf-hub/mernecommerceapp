@@ -1,18 +1,25 @@
-import React, { useEffect,useState, Fragment } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import {   fetchAllProductsAsync,
-  fetchProductsByFiltersAsync, selectAllProducts } from "../productSlice";
-import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import { ChevronLeftIcon, ChevronRightIcon, StarIcon} from "@heroicons/react/20/solid";
-import { Link } from "react-router-dom";
+import React, { useState, Fragment, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import {
+  fetchAllProductsAsync,
+  fetchProductsByFiltersAsync,
+  selectAllProducts,
+} from '../productSlice';
+import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react';
+import { XMarkIcon } from '@heroicons/react/24/outline';
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  StarIcon,
+} from '@heroicons/react/20/solid';
+import { Link } from 'react-router-dom';
 import {
   ChevronDownIcon,
   FunnelIcon,
   MinusIcon,
   PlusIcon,
   Squares2X2Icon,
-} from "@heroicons/react/20/solid";
+} from '@heroicons/react/20/solid';
 
 const sortOptions = [
   { name: 'Best Rating', sort: 'rating', order: 'desc', current: false },
@@ -186,10 +193,8 @@ const filters = [
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
-
-
 
 export default function ProductList() {
   const dispatch = useDispatch();
