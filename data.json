@@ -2386,7 +2386,28 @@
       "id": 2
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -5118,6 +5139,78 @@
       },
       "status": "pending",
       "id": 27
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 899,
+      "totalItems": 1,
+      "user": {
+        "email": "jaissm002@gmail.com",
+        "password": "#LoneWolf@@2130",
+        "addresses": [
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Kumar Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "12c main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jai Kumar Shukla",
+        "email": "jaissm002@gmail.com",
+        "phone": "8102455822",
+        "street": "12c main",
+        "city": "Sasaram",
+        "state": "Bihar",
+        "pinCode": "821115"
+      },
+      "status": "pending",
+      "id": 28
     }
   ]
 }
