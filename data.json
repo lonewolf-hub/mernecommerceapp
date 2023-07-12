@@ -2386,129 +2386,7 @@
       "id": 2
     }
   ],
-  "cart": [
-    {
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
-      "rating": 4.3,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/4/1.jpg",
-        "https://i.dummyjson.com/data/products/4/2.jpg",
-        "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/4.jpg",
-        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 2
-    },
-    {
-      "title": "Freckle Treatment Cream- 15gm",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 70,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/20/1.jpg",
-        "https://i.dummyjson.com/data/products/20/2.jpg",
-        "https://i.dummyjson.com/data/products/20/3.jpg",
-        "https://i.dummyjson.com/data/products/20/4.jpg",
-        "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 3
-    },
-    {
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 4
-    },
-    {
-      "title": "women winter clothes",
-      "description": "women winter clothes thick fleece hoodie top with sweat pantjogger women sweatsuit set joggers pants two piece pants set",
-      "price": 57,
-      "discountPercentage": 13.39,
-      "rating": 4.91,
-      "stock": 84,
-      "brand": "Top Sweater",
-      "category": "tops",
-      "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/40/1.jpg",
-        "https://i.dummyjson.com/data/products/40/2.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 5
-    },
-    {
-      "title": "Women Shoes",
-      "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
-      "price": 36,
-      "discountPercentage": 16.87,
-      "rating": 4.33,
-      "stock": 46,
-      "brand": "Arrivals Genuine",
-      "category": "womens-shoes",
-      "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/50/1.jpeg",
-        "https://i.dummyjson.com/data/products/50/2.jpg",
-        "https://i.dummyjson.com/data/products/50/3.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 6
-    },
-    {
-      "title": "Cycle Bike Glow",
-      "description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem valves of road, mountain bicycles, motocycles and cars.Bright led will turn on w",
-      "price": 35,
-      "discountPercentage": 11.08,
-      "rating": 4.1,
-      "stock": 63,
-      "brand": "Neon LED Light",
-      "category": "automotive",
-      "thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/90/1.jpg",
-        "https://i.dummyjson.com/data/products/90/2.jpg",
-        "https://i.dummyjson.com/data/products/90/3.jpg",
-        "https://i.dummyjson.com/data/products/90/4.jpg",
-        "https://i.dummyjson.com/data/products/90/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 7
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "items": [
@@ -4922,6 +4800,324 @@
         "pinCode": "821115"
       },
       "id": 24
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 280,
+          "discountPercentage": 17.91,
+          "rating": 4.3,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/4.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Freckle Treatment Cream- 15gm",
+          "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
+          "price": 70,
+          "discountPercentage": 16.99,
+          "rating": 4.06,
+          "stock": 140,
+          "brand": "Fair & Clear",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/20/1.jpg",
+            "https://i.dummyjson.com/data/products/20/2.jpg",
+            "https://i.dummyjson.com/data/products/20/3.jpg",
+            "https://i.dummyjson.com/data/products/20/4.jpg",
+            "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 3
+        },
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 4
+        },
+        {
+          "title": "women winter clothes",
+          "description": "women winter clothes thick fleece hoodie top with sweat pantjogger women sweatsuit set joggers pants two piece pants set",
+          "price": 57,
+          "discountPercentage": 13.39,
+          "rating": 4.91,
+          "stock": 84,
+          "brand": "Top Sweater",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/40/1.jpg",
+            "https://i.dummyjson.com/data/products/40/2.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 5
+        },
+        {
+          "title": "Women Shoes",
+          "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+          "price": 36,
+          "discountPercentage": 16.87,
+          "rating": 4.33,
+          "stock": 46,
+          "brand": "Arrivals Genuine",
+          "category": "womens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/50/1.jpeg",
+            "https://i.dummyjson.com/data/products/50/2.jpg",
+            "https://i.dummyjson.com/data/products/50/3.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 6
+        },
+        {
+          "title": "Cycle Bike Glow",
+          "description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem valves of road, mountain bicycles, motocycles and cars.Bright led will turn on w",
+          "price": 35,
+          "discountPercentage": 11.08,
+          "rating": 4.1,
+          "stock": 63,
+          "brand": "Neon LED Light",
+          "category": "automotive",
+          "thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/90/1.jpg",
+            "https://i.dummyjson.com/data/products/90/2.jpg",
+            "https://i.dummyjson.com/data/products/90/3.jpg",
+            "https://i.dummyjson.com/data/products/90/4.jpg",
+            "https://i.dummyjson.com/data/products/90/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 7
+        }
+      ],
+      "totalAmount": 1977,
+      "totalItems": 6,
+      "user": {
+        "email": "jaissm002@gmail.com",
+        "password": "#LoneWolf@@2130",
+        "addresses": [
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Kumar Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "12c main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jai Kumar Shukla",
+        "email": "jaissm002@gmail.com",
+        "phone": "8102455822",
+        "street": "12c main",
+        "city": "Sasaram",
+        "state": "Bihar",
+        "pinCode": "821115"
+      },
+      "status": "pending",
+      "id": 25
+    },
+    {
+      "items": [
+        {
+          "title": "Cycle Bike Glow",
+          "description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem valves of road, mountain bicycles, motocycles and cars.Bright led will turn on w",
+          "price": 35,
+          "discountPercentage": 11.08,
+          "rating": 4.1,
+          "stock": 63,
+          "brand": "Neon LED Light",
+          "category": "automotive",
+          "thumbnail": "https://i.dummyjson.com/data/products/90/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/90/1.jpg",
+            "https://i.dummyjson.com/data/products/90/2.jpg",
+            "https://i.dummyjson.com/data/products/90/3.jpg",
+            "https://i.dummyjson.com/data/products/90/4.jpg",
+            "https://i.dummyjson.com/data/products/90/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 7
+        }
+      ],
+      "totalAmount": 35,
+      "totalItems": 1,
+      "user": {
+        "email": "jaissm002@gmail.com",
+        "password": "#LoneWolf@@2130",
+        "addresses": [
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Kumar Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "12c main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jai Kumar Shukla",
+        "email": "jaissm002@gmail.com",
+        "phone": "8102455822",
+        "street": "12c main",
+        "city": "Sasaram",
+        "state": "Bihar",
+        "pinCode": "821115"
+      },
+      "status": "pending",
+      "id": 26
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 899,
+      "totalItems": 1,
+      "user": {
+        "email": "jaissm002@gmail.com",
+        "password": "#LoneWolf@@2130",
+        "addresses": [
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "11th Main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          },
+          {
+            "name": "Jai Kumar Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "12c main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jai Shukla",
+        "email": "jaissm002@gmail.com",
+        "phone": "8102455822",
+        "street": "11th Main",
+        "city": "Sasaram",
+        "state": "Bihar",
+        "pinCode": "821115"
+      },
+      "status": "pending",
+      "id": 27
     }
   ]
 }
