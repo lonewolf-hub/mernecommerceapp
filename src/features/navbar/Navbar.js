@@ -80,7 +80,7 @@ function NavBar({ children }) {
                         >
                           <span className="sr-only">View notifications</span>
                           <ShoppingCartIcon
-                            className="h-6 w-6"
+                            className="h-8 w-8"
                             aria-hidden="true"
                           />
                         </button>
@@ -98,7 +98,7 @@ function NavBar({ children }) {
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src={user.imageUrl}
+                              src="/user1.png"
                               alt=""
                             />
                           </Menu.Button>
@@ -227,7 +227,7 @@ function NavBar({ children }) {
         <header className="bg-white shadow">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-              E-Commerce
+            SWIFT-CART
             </h1>
           </div>
         </header>
