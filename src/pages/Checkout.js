@@ -444,7 +444,7 @@ function Checkout() {
                             <div className="flex">
                             <Modal
                             title={`Delete ${item.title}`}
-                            message="Are you sure you want to delete this Cart item ?"
+                            message="Are you sure you want to delete this Checkout item ?"
                             dangerOption="Delete"
                             cancelOption="Cancel"
                             dangerAction={(e) => handleRemove(e, item.id)}

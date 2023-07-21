@@ -3,11 +3,11 @@
     {
       "id": 1,
       "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like appled",
-      "price": 549,
+      "description": "An apple mobile which is nothing like apple",
+      "price": 993,
       "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
+      "rating": 0,
+      "stock": 0,
       "brand": "Apple",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
@@ -23,9 +23,9 @@
       "id": 2,
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
+      "price": 1111,
       "discountPercentage": 17.94,
-      "rating": 4.44,
+      "rating": 0,
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
@@ -50,10 +50,7 @@
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/3/1.jpg"
       ],
       "deleted": true
     },
@@ -61,9 +58,9 @@
       "id": 4,
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
+      "price": 300,
       "discountPercentage": 17.91,
-      "rating": 4.3,
+      "rating": 0,
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
@@ -72,7 +69,6 @@
         "https://i.dummyjson.com/data/products/4/1.jpg",
         "https://i.dummyjson.com/data/products/4/2.jpg",
         "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/4.jpg",
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
       ]
     },
@@ -90,18 +86,16 @@
       "images": [
         "https://i.dummyjson.com/data/products/5/1.jpg",
         "https://i.dummyjson.com/data/products/5/2.jpg",
-        "https://i.dummyjson.com/data/products/5/3.jpg",
-        "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
-      ],
-      "deleted": true
+        "https://i.dummyjson.com/data/products/5/3.jpg"
+      ]
     },
     {
       "id": 6,
       "title": "MacBook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
+      "price": 1999,
       "discountPercentage": 11.02,
-      "rating": 4.57,
+      "rating": 0,
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
@@ -110,7 +104,7 @@
         "https://i.dummyjson.com/data/products/6/1.png",
         "https://i.dummyjson.com/data/products/6/2.jpg",
         "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
       ]
     },
     {
@@ -190,7 +184,7 @@
     {
       "id": 11,
       "title": "perfume Oil",
-      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil m",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
       "price": 13,
       "discountPercentage": 8.4,
       "rating": 4.26,
@@ -1845,6 +1839,23 @@
         "https://i.dummyjson.com/data/products/100/3.jpg",
         "https://i.dummyjson.com/data/products/100/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "Mac Book Air ",
+      "description": "Mac Book Air ",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1111,
+      "discountPercentage": 11,
+      "stock": 22,
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+      ],
+      "id": 101
     }
   ],
   "brands": [
@@ -2350,6 +2361,24 @@
         {
           "name": "Jai Kumar Shukla",
           "email": "jaissm002@gmail.com",
+          "city": "Sasaram ",
+          "state": "Bihar",
+          "pinCode": "821115",
+          "phone": "+918102455822",
+          "street": "12c main"
+        },
+        {
+          "name": "Jai Kumar Shukla",
+          "email": "jaissm002@gmail.com",
+          "phone": "8102455822",
+          "street": "12c main",
+          "city": "Sasaram",
+          "state": "Bihar",
+          "pinCode": "821115"
+        },
+        {
+          "name": "jaissm002@gmail.com",
+          "email": "jaissm002@gmail.com",
           "phone": "8102455822",
           "street": "12c main",
           "city": "Sasaram",
@@ -2386,25 +2415,25 @@
   ],
   "cart": [
     {
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like appled",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/1.jpg",
-        "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
       ],
       "deleted": true,
-      "productId": 3,
+      "productId": 1,
       "quantity": 1,
-      "user": 1,
+      "user": 3,
       "id": 1
     }
   ],
@@ -5377,6 +5406,84 @@
       },
       "status": "pending",
       "id": 30
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg",
+            "https://i.dummyjson.com/data/products/3/1.jpg",
+            "https://i.dummyjson.com/data/products/3/1.jpg",
+            "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+          ],
+          "deleted": true,
+          "productId": 3,
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "productId": 7,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 2493,
+      "totalItems": 2,
+      "user": {
+        "email": "jaissm002@gmail.com",
+        "password": "#LoneWolf@@2130",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Jai Kumar Shukla",
+            "email": "jaissm002@gmail.com",
+            "phone": "8102455822",
+            "street": "12c main",
+            "city": "Sasaram",
+            "state": "Bihar",
+            "pinCode": "821115"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jai Kumar Shukla",
+        "email": "jaissm002@gmail.com",
+        "phone": "8102455822",
+        "street": "12c main",
+        "city": "Sasaram",
+        "state": "Bihar",
+        "pinCode": "821115"
+      },
+      "status": "pending",
+      "id": 31
     }
   ]
 }
