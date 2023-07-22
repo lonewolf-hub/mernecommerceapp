@@ -80,7 +80,7 @@ passport.use(
             return done(null, false, { message: 'invalid credentials' });
           }
           const token = jwt.sign(sanitizeUser(user), SECRET_KEY);
-          done(null, {token}); // this lines sends to serializer
+          done(null, {id:user.id, role:user.role}); // this lines sends to serializer
         }
       );
     } catch (err) {
@@ -122,6 +122,63 @@ passport.deserializeUser(function (user, cb) {
     return cb(null, user);
   });
 });
+
+// This is your test secret API key.
+const stripe = require("stripe")('sk_test_51NDXqRSJZ47UhXS9xAULorNkeQtIiStdBCHtHfgR2vhQnmh3q7SJ3pMKkYhLZNiNmFQlJp2EhXC9T9WnYvFuvfd20001VgvkJC');
+
+
+server.post("/create-payment-intent", async (req, res) => {
+  const { totalAmount } = req.body;
+
+  // Create a PaymentIntent with the order amount and currency
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: totalAmount*100, // for decimal compensation
+    currency: "inr",
+    automatic_payment_methods: {
+      enabled: true,
+    },
+  });
+
+  res.send({
+    clientSecret: paymentIntent.client_secret,
+  });
+});
+
+// Webhook
+
+// TODO: we will capture actual order after deploying out server live on public URL
+
+const endpointSecret = "pk_test_51NDXqRSJZ47UhXS9V4nyJU4zfXeMNwMXVtKQeyOOh0lPcYcAQHzq49BSjQvy6DLLjIslXiF4ZG7VVPo9C5RsguaC00RB7J9fNc";
+
+server.post('/webhook', express.raw({type: 'application/json'}), (request, response) => {
+  const sig = request.headers['stripe-signature'];
+
+  let event;
+
+  try {
+    event = stripe.webhooks.constructEvent(request.body, sig, endpointSecret);
+  } catch (err) {
+    response.status(400).send(`Webhook Error: ${err.message}`);
+    return;
+  }
+
+  // Handle the event
+  switch (event.type) {
+    case 'payment_intent.succeeded':
+      const paymentIntentSucceeded = event.data.object;
+      console.log({paymentIntentSucceeded})
+      // Then define and call a function to handle the event payment_intent.succeeded
+      break;
+    // ... handle other event types
+    default:
+      console.log(`Unhandled event type ${event.type}`);
+  }
+
+  // Return a 200 response to acknowledge receipt of the event
+  response.send();
+});
+
+
 
 main().catch((err) => console.log(err));
 
