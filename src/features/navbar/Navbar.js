@@ -20,7 +20,7 @@ const navigation = [
 ];
 const userNavigation = [
   { name: 'My Profile', link: '/profile' },
-  { name: 'My Orders', link: '/orders' },
+  { name: 'My Orders', link: '/my-orders' },
   { name: 'Sign out', link: '/logout' },
 ];
 
@@ -46,7 +46,7 @@ function NavBar({ children }) {
                         <img
                           className="h-8 w-8"
                           src="/ecommerce.png"
-                          alt="Your Company"
+                          alt="Swift-Cart"
                         />
                       </Link>
                     </div>
@@ -103,6 +103,7 @@ function NavBar({ children }) {
                               alt=""
                             />
                           </Menu.Button>
+                          
                         </div>
                         <Transition
                           as={Fragment}
@@ -132,6 +133,15 @@ function NavBar({ children }) {
                           </Menu.Items>
                         </Transition>
                       </Menu>
+                      <div className="ml-3">
+                      <div className="text-base font-medium leading-none text-white">
+                        {/* this should come from userInfo */}
+                        {userInfo.role}
+                      </div>
+                      <div className="text-sm font-medium leading-none text-gray-400">
+                        {userInfo.email}
+                      </div>
+                    </div>
                     </div>
                   </div>
                   <div className="-mr-2 flex md:hidden">
@@ -160,7 +170,7 @@ function NavBar({ children }) {
                     <Disclosure.Button
                       key={item.name}
                       as="a"
-                      href={item.href}
+                      link={item.link}
                       className={classNames(
                         item.current
                           ? 'bg-gray-900 text-white'
@@ -178,14 +188,14 @@ function NavBar({ children }) {
                     <div className="flex-shrink-0">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src={userInfo.imageUrl}
+                        src="/user1.png"
                         alt=""
                       />
                     </div>
                     <div className="ml-3">
                       <div className="text-base font-medium leading-none text-white">
                         {/* this should come from userInfo */}
-                        {userInfo.name}
+                        {userInfo.role}
                       </div>
                       <div className="text-sm font-medium leading-none text-gray-400">
                         {userInfo.email}
@@ -209,19 +219,18 @@ function NavBar({ children }) {
                     )}
                   </div>
                   <div className="mt-3 space-y-1 px-2">
-                    {userNavigation.map((item) => (
-                      <Disclosure.Button
-                        key={item.name}
-                        as="a"
-                        href={item.href}
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
-                      >
-                        {item.name}
-                      </Disclosure.Button>
-                    ))}
+                      {userNavigation.map((item) => (
+                        <Link
+                          key={item.name}
+                          to={item.link} // Use `to` instead of `href`
+                          className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </Disclosure.Panel>
+                </Disclosure.Panel>
             </>
           )}
         </Disclosure>
