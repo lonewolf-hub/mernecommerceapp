@@ -6,11 +6,3 @@ export function fetchCount(amount = 1) {
   }
   );
 }
-
-
-
-
-
-
-
-
