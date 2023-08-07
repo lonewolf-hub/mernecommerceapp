@@ -95,6 +95,9 @@ function Checkout() {
       {currentOrder && currentOrder.paymentMethod === 'card' && (
         <Navigate to={`/stripe-checkout/`} replace={true}></Navigate>
       )}
+      {currentOrder && currentOrder.paymentMethod === 'upi' && (
+        <Navigate to={`/order-success/`} replace={true}></Navigate>
+      )}
 
       {status === 'loading' ? (
         <Grid
@@ -400,6 +403,23 @@ function Checkout() {
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Card Payment
+                      </label>
+                    </div>
+                    <div className="flex items-center gap-x-3">
+                      <input
+                        id="upi"
+                        onChange={handlePayment}
+                        name="payments"
+                        checked={paymentMethod === 'upi'}
+                        value="upi"
+                        type="radio"
+                        className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                      />
+                      <label
+                        htmlFor="UPI Payment"
+                        className="block text-sm font-medium leading-6 text-gray-900"
+                      >
+                        UPI Payment
                       </label>
                     </div>
                   </div>

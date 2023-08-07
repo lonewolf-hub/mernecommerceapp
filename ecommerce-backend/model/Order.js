@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const paymentMethods = {
-  values: ['card', 'cash'],
+  values: ['card', 'cash','upi'],
   message: 'enum validator failed for payment Methods'
 }
 const orderSchema = new Schema(
