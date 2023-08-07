@@ -58,8 +58,16 @@ function Checkout() {
     setPaymentMethod(e.target.value);
   };
 
-  const handleOrder = (e) => {
+ const handleOrder = (e) => {
     if (selectedAddress && paymentMethod) {
+      // Check if any item in the cart is out of stock
+      const outOfStockItem = items.find((item) => item.product.stock === 0);
+
+      if (outOfStockItem) {
+        alert(`${outOfStockItem.product.title} is out of stock. Please select another product.`);
+        return;
+      }
+
       const order = {
         items,
         totalAmount,
@@ -67,16 +75,14 @@ function Checkout() {
         user: user.id,
         paymentMethod,
         selectedAddress,
-        status: 'pending', // other status can be delivered, received.
+        status: 'pending',
       };
       dispatch(createOrderAsync(order));
       // need to redirect from here to a new page of order success.
     } else {
-      
       alert('Enter Address and Payment method');
     }
   };
-
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
