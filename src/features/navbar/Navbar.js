@@ -35,7 +35,7 @@ function NavBar({ children }) {
   return (
     <>
       {userInfo &&<div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-primary-color shadow-md">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@ function NavBar({ children }) {
                         <img
                           className="h-8 w-8"
                           src="/ecommerce.png"
-                          alt="Swift-Cart"
+                          alt="VERVE-VENTURE"
                         />
                       </Link>
                     </div>
@@ -59,8 +59,8 @@ function NavBar({ children }) {
                               to={item.link}
                               className={classNames(
                                 item.current
-                                  ? 'bg-gray-900 text-white'
-                                  : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                  ? 'bg-secondary-color text-black shadow-md'
+                                  : 'text-black hover:bg-secondary-color hover:text-black hover:shadow-md shadow-md',
                                 'rounded-md px-3 py-2 text-sm font-medium'
                               )}
                               aria-current={item.current ? 'page' : undefined}
@@ -77,7 +77,7 @@ function NavBar({ children }) {
                       <Link to="/cart">
                         <button
                           type="button"
-                          className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                          className="rounded-full bg-secondary-color p-1 text-black hover:text-[#EE9B8D] focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-white"
                         >
                           <span className="sr-only">View notifications</span>
                           <ShoppingCartIcon
@@ -87,7 +87,7 @@ function NavBar({ children }) {
                         </button>
                       </Link>
                       {items.length > 0 && (
-                        <span className="inline-flex items-center rounded-md mb-7 -ml-3 bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+                        <span className="inline-flex items-center rounded-md mb-7 -ml-3 bg-secondary-color px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
                           {items.length}
                         </span>
                       )}
@@ -121,7 +121,7 @@ function NavBar({ children }) {
                                   <Link
                                     to={item.link}
                                     className={classNames(
-                                      active ? 'bg-gray-100' : '',
+                                      active ? 'bg-secondary-color' : '',
                                       'block px-4 py-2 text-sm text-gray-700'
                                     )}
                                   >
@@ -134,11 +134,11 @@ function NavBar({ children }) {
                         </Transition>
                       </Menu>
                       <div className="ml-3">
-                      <div className="text-base font-medium leading-none text-white">
+                      <div className="text-base font-medium leading-none text-black">
                         {/* this should come from userInfo */}
                         {userInfo.role}
                       </div>
-                      <div className="text-sm font-medium leading-none text-gray-400">
+                      <div className="text-sm font-medium leading-none text-black">
                         {userInfo.email}
                       </div>
                     </div>
@@ -146,7 +146,7 @@ function NavBar({ children }) {
                   </div>
                   <div className="-mr-2 flex md:hidden">
                     {/* Mobile menu button */}
-                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-secondary-color p-2 text-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open main menu</span>
                       {open ? (
                         <XMarkIcon
@@ -173,8 +173,8 @@ function NavBar({ children }) {
                       link={item.link}
                       className={classNames(
                         item.current
-                          ? 'bg-gray-900 text-white'
-                          : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          ? 'bg-secondary-color text-black'
+                          : 'text-black hover:bg-secondary-color hover:text-black',
                         'block rounded-md px-3 py-2 text-base font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
@@ -193,19 +193,19 @@ function NavBar({ children }) {
                       />
                     </div>
                     <div className="ml-3">
-                      <div className="text-base font-medium leading-none text-white">
+                      <div className="text-base font-medium leading-none text-black">
                         {/* this should come from userInfo */}
                         {userInfo.role}
                       </div>
-                      <div className="text-sm font-medium leading-none text-gray-400">
+                      <div className="text-sm font-medium leading-none text-black">
                         {userInfo.email}
                       </div>
                     </div>
                     <Link to="/cart">
                       <button
                         type="button"
-                        className="ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                      >
+                        className="rounded-full bg-secondary-color p-1 text-black hover:text-[#EE9B8D] focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-white"
+                        >
                         <ShoppingCartIcon
                           className="h-6 w-6"
                           aria-hidden="true"
@@ -223,7 +223,7 @@ function NavBar({ children }) {
                         <Link
                           key={item.name}
                           to={item.link} // Use `to` instead of `href`
-                          className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                          className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-secondary-color hover:text-black"
                         >
                           {item.name}
                         </Link>
@@ -235,10 +235,10 @@ function NavBar({ children }) {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
+        <header className="bg-secondary-color shadow-md">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-            SWIFT-CART
+            Express-Elegance
             </h1>
           </div>
         </header>

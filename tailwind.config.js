@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'primary-color': '#EE9B8D',
+        'secondary-color':'#EEE9DD',
+      },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
